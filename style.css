@@ -1,0 +1,89 @@
+/* #boss{
+    background-color: rgb(183, 162, 203);
+    width: 400px;
+    height: 500px;
+
+}
+
+#one{
+    border: 1px solid blueviolet;
+    padding: 7px;
+}
+
+#two{
+    border: 2px solid blueviolet;
+    padding: 7px;
+}
+#three{
+    border: 3px solid blueviolet;
+    padding: 7px;
+}
+#four{
+    border: 4px solid blueviolet;
+    padding: 7px;
+}
+#five{
+    border: 5px solid blueviolet;
+    padding: 7px;
+}
+#six{
+    border: 6px solid blueviolet;
+    padding: 7px;
+}
+#seven{
+    border: 7px solid blueviolet;
+    padding: 7px;
+}
+#eight{
+    border: 8px solid blueviolet;
+    padding: 7px;
+}
+
+body{
+    padding-top: 30px;
+    background-color: rgb(232, 217, 245);
+}
+#nine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* zadanie 5 */
+body{
+    padding: 10px;
+    font-family:sans-serif;
+}
+#container{
+    border: 4px solid black;
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+}
+
+button{
+    padding: 7px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+button:nth-child(1){
+    margin-right: 20px;
+}
+button:nth-child(2){
+    margin-right: 180px;
+}
+#timer{
+    border: 2px solid black;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+input{
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      /* Задание 1: */
+      /* #container {
+            position: relative;
+            border: 1px solid gray;
+            width: 265px;
+            height: 50px;
+            margin-top: 20px;
+        }
+
+        #element {
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            position: absolute;
+            left: 0;
+            top: 0;
+        } */
+      /* Задание 1: */
+      /* Задание 4: */
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .task-list {
+        width: 500px;
+      }
+
+      #start-message {
+        margin: 10px;
+      }
+
+      .task {
+        display: flex;
+        align-items: center;
+        border: 1px solid gray;
+        padding: 3px 8px;
+        margin: 2px 10px;
+      }
+
+      .task p {
+        margin-left: 4px;
+      }
+
+      .completed {
+        background-color: green;
+        color: white;
+      }
+
+      .completed p {
+        text-decoration: line-through;
+      }
+
+      .input-panel {
+        width: 500px;
+        margin: 8px;
+        padding: 2px;
+      }
+
+      .input-panel button {
+        padding: 4px;
+        width: 25%;
+      }
+
+      .input-panel input {
+        height: 23px;
+        padding-left: 4px;
+        width: 68%;
+      }
+      /* Задание 4: */
+    </style>
+  </head>
+  <body>
+    <!-- Задание 1: -->
+    <!-- <button id="startBtn">Старт</button>
+    <button id="stopBtn">Стоп</button>
+    <button id="increaseBtn">Ускорить</button>
+    <button id="decreaseBtn">Замедлить</button>
+
+    <div id="container">
+        <div id="element"></div>
+    </div> -->
+    <!-- Задание 1: -->
+    <!-- Задание 4: -->
+    <!-- <div class="input-panel">
+        <input type="text" id="task-name-input">
+        <button id="add-task-btn">Добавить задачу</button>
+    </div>
+    <div class="input-panel">
+        <button id="show-all-btn">Все</button>
+        <button id="show-not-completed-btn">Не завершенные</button>
+    </div>
+    <div class="task-list">
+        <p id="start-message">Нет новых задач</p>
+    </div> -->
+    <!-- Задание 4: -->
+    <div id="container">
+      <div id="header">
+        <button id="btn-start">Start</button>
+        <button id="btn-exit">Exit</button>
+        <span id="timer">Time</span>
+      </div>
+      <div id="main">
+        <span id="message-win"></span><br>
+        <span id="message"></span>
+        <div id="container-input">
+          <input type="text" id="input-value" disabled>
+          <button id="btn-play">Play</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="nine">
+<div id="eight">
+    <div id="seven">
+        <div id="six">
+            <div id="five">
+                <div id="four">
+                    <div id="three">
+                        <div id="two">
+                            <div id="one">
+                                <div id="boss"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div> -->
+
+    <script src="file.js"></script>
+  </body>
+</html>
